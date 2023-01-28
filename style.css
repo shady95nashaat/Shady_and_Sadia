@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px auto;
+    width: 40%;
+}
+
+.container header {
+    padding: 20px;
+}
+
+.container .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container .form div {
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.container .form div label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.container .form div input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.container select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.container .select p {
+    margin-bottom: 8px;
+}
