@@ -16,53 +16,95 @@
             <p>Thank you for taking the time to help us improve the platform</p>
         </header>
         <div class="form">
+           <div class="firstIn">
             <div>
-                <label for="Name">Name</label>
-                <input type="text" placeholder="Enter your name">
+                <label for="Name">Name</label><br>
+                <input style="width: 450px;" type="text" placeholder="Enter your name" >
             </div>
             <div>
-                <label for="Name">Email</label>
-                <input type="text" placeholder="Enter your email">
+                <label for="Name">Email</label><br>
+                <input style="width: 450px;" type="text" placeholder="Enter your email">
             </div>
             <div>
-                <label for="Name">Age(optional)</label>
-                <input type="text" placeholder="Age">
+                <label for="Name">Age(optional)</label><br>
+                <input style="width: 450px;" type="text" placeholder="Age">
             </div>
+           </div>
             <div class="select">
                 <p>Which option best describes your current role?</p>
-                <select name="role">
-                    <option disabled selected value>Choose your current role</option>
-                    <option value="Student">Student</option>
-                    <option value="Full time Job">Full time Job</option>
-                    <option value="Full time Learner">Full time Learner</option>
-                    <option value="Prefer not to say">Prefer not to say</option>
-                    <option value="other">other</option>
+                <select name="role" class="role">
+                    <option class="role" disabled selected value>Choose your current role</ class="role">
+                    <option class="role" value="Student">Student</option>
+                    <option class="role" value="Full time Job">Full time Job</option>
+                    <option class="role" value="Full time Learner">Full time Learner</option>
+                    <option class="role" value="Prefer not to say">Prefer not to say</option>
+                    <option class="role" value="other">other</option>
                 </select>
             </div>
-            <div class="radio">
+            <div>
                 <p>Would you recommend freeCodeCamp to a friend?</p>
-                <label>
-                    <input type="radio" value="Definitely" name="recommend" checked>
-                    Definitely
+                <label for="">
+                    <input type="radio" name="yes">
+                    Definately
                 </label>
-                <label>
-                    Maybe
-                    <input type="radio" value="Maybe" name="recommend">
+                <br>
+                <label for="">
+                    <input type="radio" name="yes">
+                    May be
                 </label>
-
-                <input type="radio" value="NotSure" name="recommend">
-                <label>Not sure</label>
-            </div>
+                <br>
+                <label for="">
+                    <input type="radio" name="yes">
+                    Not Sure
+                </label>
             <div class="select">
                 <p>What is your favorite feature of freeCodeCamp?</p>
-                <select name="role">
-                    <option disabled selected value>Select an option</option>
-                    <option value="challenges">Challenges</option>
-                    <option value="projects">Projects</option>
-                    <option value="comunity">Comunity</option>
-                    <option value="open-source">Open Source</option>
+                <select name="role" class="role">
+                    <option class="role" disabled selected value>Select an option</option>
+                    <option class="role" value="challenges">Challenges</option>
+                    <option class="role" value="projects">Projects</option>
+                    <option class="role" value="comunity">Comunity</option>
+                    <option class="role" value="open-source">Open Source</option>
                 </select>
             </div>
+        </div>
+        <div>
+            <p>
+                What would you like to see improved? (Check all that apply)
+            </p>
+            <input type="checkbox">Front-end Projects
+
+            <br>
+            <input type="checkbox">Back-end Projects
+            <br>
+            <input type="checkbox">Data Visualization
+            <br>
+            <input type="checkbox">Challenges
+            <br>
+            <input type="checkbox">Open Source Community
+            <br>
+            <input type="checkbox">Gitter help rooms
+            <br>
+            <input type="checkbox">Videos
+           
+            <br>
+            <input type="checkbox"> City Meetups
+            <br>
+            <input type="checkbox"> Wiki
+            <br>
+            <input type="checkbox">Forum
+            <br>
+            <input type="checkbox">Additional Courses
+            <br>
+        </div>
+        <br>
+        <br>
+        <p>Any comments or suggestions?</p> <br>
+        <div style="margin: 0 auto;">
+            <input type="text" placeholder="Enter your comment here" style="height: 150px; width: 490px;">
+            <br>
+            <br>
+            <button style="height: 30px; width: 490px; color: white; background-color: green;">Submit</button>
         </div>
     </div>
 </body>

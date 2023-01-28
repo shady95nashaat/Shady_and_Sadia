@@ -1,11 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
+    font-weight: bolds;
+}
+body{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(survey-form-background.jpeg);
 }
 
 .container {
-    margin: 20px auto;
+    margin: 30px auto;
     width: 40%;
+    background-color: rgb(27 27 50 / 80%);
 }
 
 .container header {
@@ -24,13 +30,13 @@
 }
 
 .container .form div label {
-    display: block;
+    
     margin-bottom: 8px;
 }
 
 .container .form div input {
-    display: block;
-    width: 100%;
+   
+   
     padding: 10px;
 }
 
@@ -42,4 +48,8 @@
 
 .container .select p {
     margin-bottom: 8px;
+}
+.role{
+    color: black !important;
+    
 }
